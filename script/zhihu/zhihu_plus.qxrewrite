@@ -1,5 +1,5 @@
 # 知乎处理用户信息
-^https?:\/\/api\.zhihu\.com\/people\/ url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu.js
+^https?:\/\/api\.zhihu\.com\/people\/ url script-response-body https://github.ioiox.com/GitHub/ios_rule_script/raw/commit/d22962958979fff8b03b0fb12e5508792095eeb3/script/zhihu/zhihu.js
 # 知乎信息流去广告
 ^https?:\/\/api\.zhihu\.com\/(moments|topstory)(\/|\?)?(recommend|action=|feed_type=)(?!\/people) url script-response-body https://github.ioiox.com/GitHub/ios_rule_script/raw/commit/d22962958979fff8b03b0fb12e5508792095eeb3/script/zhihu/zhihu.js
 # 知乎回答列表去广告
